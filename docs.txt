@@ -1,0 +1,16 @@
+1. Getting Started 
+ - from systems import engine 
+
+2 . Getting the name of Bot
+- engine.bot_name 
+
+3. Create a custom name 
+- engine.bot_name = "Custom name"
+
+4. Asking Questions from Bot 
+- engine.askQuestion(question) 
+NOTE: question parameter must be string
+
+
+
+
