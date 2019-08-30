@@ -1,7 +1,10 @@
 from systems import nervous_sys 
 import time
 
+
 ## instantiate 
+## This process should power up important things about this Artificial inteeligence .. 
+
 nervous = nervous_sys.NervousSystem()
 
 
