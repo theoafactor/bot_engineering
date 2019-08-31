@@ -12,4 +12,3 @@ answers = {
     'web_search': 'Opening the page',
     'date': nervous_system.day_today
 }
- 

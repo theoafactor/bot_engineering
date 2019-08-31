@@ -5,11 +5,14 @@ import time
 ## instantiate 
 ## This process should power up important things about this Artificial inteeligence .. 
 
+
+
 nervous = nervous_sys.NervousSystem()
 
 
 #Name of Bot 
 bot_name = nervous.bot_name
+get_switch = nervous.switch_bot
 
 ##See 
 seeing = nervous.see()
@@ -23,6 +26,7 @@ def askQuestion(question):
 
 
 def listen():
+    ## check that the application is powered on .. 
     nervous.listen()
 
 

@@ -4,21 +4,24 @@ clues = {
     'greetings': [
         
        {
-            'type': 'greetings',
-            'clues': ['how are you','how']
-       },
-
-       {
            'type': 'evening_greetings',
            'clues': ['good evening', 'evening']
+       },
+          
+        {
+            'type': 'greetings',
+            'clues': ['how are you','how']
        }
     ],
 
     'open_web': [
 
-       {
-        'type': 'opens_url',
-        'clues': ['go to this website', 'website']
+        {
+        'type': 'go_to_website',
+        'clues': ['wwwdot', 'www', 'www.', 'dotcom', '.com', 'com', 
+                    'org', '.org', '.ng','dotorgdotng', 'dotorg.ng',
+                    'com.ng', 'dot', '.',
+                  '.orgdotng', 'orgdotng',  '.com.ng', '.org.ng', 'ng', 'orgng']
        }
     ],
 
@@ -35,14 +38,28 @@ clues = {
         {
             'type': 'about_bot',
             'clues': ['what is your name', 'your name?', 'name', 'name?']
-        },
+        }
+    ],
 
-        {
+    'age': [
+         {
             'type': 'bot_age',
             'clues': ['how old are you', 'what is your age', 'what is your age?', 'your age', 'age?', 'you?', 'old?', 'how old you?']
         
         }
     ],
+    
+    'place_order': [
+
+            {
+                'type': 'place_order',
+                'clues': ['place this order']
+            }
+
+
+    ],
+
+
 
     'mood': [
         {
