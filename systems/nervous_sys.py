@@ -103,7 +103,11 @@ class NervousSystem(Core):
                 print(information_supplied)
 
             webbrowser.open("http://"+information_supplied)
-            #self.switch_bot = False
+            # -- Turn the not off at this point .. self.switch_bot = False
+
+
+
+
 
         if child_type == 'bot_age':
             self.talk(parent_clue, child_type)
@@ -117,6 +121,7 @@ class NervousSystem(Core):
             print("Placing the order ...")
             print("Here is the word bit : ", word_bit)
             print("Here is the information entered: ", information_supplied)
+        
 
 
 
